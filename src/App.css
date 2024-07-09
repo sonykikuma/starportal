@@ -1,0 +1,46 @@
+main {
+}
+/* Banner.css */
+.banner-container {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+.banner-text {
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white; /* You can change the color as needed */
+  font-size: 40px; /* Adjust the font size as needed */
+  text-align: center;
+  width: 100%; /* Ensure the text is centered within the container */
+  /*white-space: nowrap;*/
+}
+
+
+
+.intract {
+  display: block;
+}
+
+.academy {
+  display: block;
+  margin-top: -0.5em;  /*Adjust this value to position 'A' just below 'I' */
+}
+
+}
+.custom-btn {
+  background-color: #662d91;
+  border-color:#662d91;
+}
+.transparent-bg {
+  background-color: black !important;
+  color: white !important;
+  border:none !important
+}
+.toggle-icon {
+  right: 10px; /* Adjust as needed */
+  top: 10px;   /* Adjust as needed */
+}
