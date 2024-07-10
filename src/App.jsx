@@ -9,6 +9,7 @@ import CryptoDictionary from './components/CryptoDictionary'
 import CryptoCreators from './components/CryptoCreators'
 import AccordionCard from './components/AccordionCard'
 import AccordionCard2 from './components/AccordionCard2'
+import TimerCard from './components/TimerCard'
 
 const App = ()=>{
 
@@ -18,6 +19,7 @@ const App = ()=>{
     <main className='bg-black py-4'>
       <AccordionCard/>
       <AccordionCard2/>
+      <TimerCard/>
       <hr className='text-secondary'/>
 
       <CryptoCreators/>

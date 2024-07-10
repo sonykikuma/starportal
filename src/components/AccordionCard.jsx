@@ -15,7 +15,7 @@ imageurl:"https://static.highongrowth.xyz/enterprise/65017d014e5f24613adbfd67/71
 ]
 
 
-  return(<div className="container rounded-4 mb-3" style={{width:"40%", height:"20%", marginLeft:"50px",marginTop:"0px"}}>
+  return(<div className="container rounded-4 mb-3 mt-0" style={{width:"40%", height:"30%", marginLeft:"50px"}}>
     <div className="accordion " id="accordionExample" >
       <div className="accordion-item border-dark bg-black py-2 px-2">
          <h2 className="accordion-header  py-3 px-4  bg-black " >
@@ -30,7 +30,7 @@ imageurl:"https://static.highongrowth.xyz/enterprise/65017d014e5f24613adbfd67/71
 
        <div className="col-md-8">  
          <button className="accordion-button transparent-bg d-flex flex-column align-items-start border-black border position-relative" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne"
-><span>
+><span className="fs-3">
 Basics of Crypto</span>
 
             <p className="text-secondary mb-0 mt-3">The safest and easiest place to start your crypto journey!</p>

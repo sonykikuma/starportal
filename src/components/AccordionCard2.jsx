@@ -11,7 +11,7 @@ imageurl:"https://static.highongrowth.xyz/enterprise/65017d014e5f24613adbfd67/27
 ]
 
 
-  return(<div className="container mb-3" style={{width:"40%", height:"30%", marginRight:"50px"}}>
+  return(<div className="container rounded-4 mb-3 " style={{width:"40%", height:"30%", marginTop:"100px"}}>
     <div className="accordion " id="accordionExample" >
       <div className="accordion-item border-dark bg-black py-2 px-2">
          <h2 className="accordion-header  py-3 px-4  bg-black " >
@@ -25,7 +25,7 @@ imageurl:"https://static.highongrowth.xyz/enterprise/65017d014e5f24613adbfd67/27
 
        <div className="col-md-8">  
          <button className="accordion-button transparent-bg d-flex flex-column align-items-start border-black border position-relative" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOn" aria-expanded="true" aria-controls="collapseOn"
-><span>
+><span className="fs-3">
 Introduction to Airdrops </span>
 
             <p className="text-secondary mb-0 mt-3">The best bet to make it big in crypto!</p>
